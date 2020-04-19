@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/otherchattext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#b5b4ba"
+        android:textColor="#3a3a3a"
+        android:textStyle="normal"
+        android:textSize="14.1sp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="75dp"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:text="Lorem ipsum dolor sit amet,"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/otherchattime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="#343434"
+        android:textStyle="normal"
+        android:textSize="9.5sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="75dp"
+        android:layout_gravity="left"
+        android:padding="8dp"
+        android:text="10:23 PM"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/youchattext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#35af6a"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:textSize="14.1sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="right"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:text="Lorem ipsum dolor sit amet,"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/youchattime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#343434"
+        android:textStyle="normal"
+        android:textSize="9.5sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="right"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:text="10:23 PM"
+        ></TextView>
+
+
+
+</LinearLayout>

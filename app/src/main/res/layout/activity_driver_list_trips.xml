@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15"
+    tools:context=".ui.aenny.drivertrips.DriverListTripsActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="My Trips"
+        android:textStyle="bold"
+        android:textSize="19.3sp"
+        android:textColor="#35af6a"
+
+        android:gravity="center"></TextView>
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpager"
+        android:layout_width="match_parent"
+        android:layout_weight="13"
+        android:layout_height="0dp" >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:tabIndicatorColor="#ddd91a"
+            app:tabSelectedTextColor="#35af6a"
+            app:tabTextColor="#818181"
+            app:tabIndicatorHeight="5dp"
+
+            >
+
+        </com.google.android.material.tabs.TabLayout>
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+
+
+
+</LinearLayout>

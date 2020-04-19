@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/g1">
+        <item
+            android:id="@+id/myprofile"
+            android:icon="@drawable/ic_shape_777"
+            android:title="Edit my profile"
+            android:visible="false"
+            />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/g2">
+        <item
+            android:id="@+id/mytrips"
+            android:icon="@drawable/ic_mytrips"
+            android:title="My trips"
+
+            />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/g3">
+        <item
+            android:id="@+id/favourites"
+            android:icon="@drawable/ic_favourites"
+            android:visible="false"
+            android:title="Favorites" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/g4">
+        <item
+            android:id="@+id/payments"
+            android:icon="@drawable/ic_payments"
+            android:visible="false"
+            android:title="Payment" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/g5">
+        <item
+            android:id="@+id/addlongtrip"
+            android:icon="@drawable/ic_mydays"
+            android:visible="false"
+            android:title="Several days requests" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/g6">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_mysettings"
+            android:title="Settings" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/g7">
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_myhelp"
+        android:title="Help and support" />
+</group>
+
+    <group android:checkableBehavior="single" android:id="@+id/g11">
+        <item
+            android:id="@+id/invite"
+            android:icon="@drawable/ic_invite"
+            android:title="Invite friend" />
+    </group>
+
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>-->
+
+</menu>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="15"
+        tools:context=".ui.aenny.settingscreen.MainSettingsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textSize="19.3sp"
+            android:textColor="#35af6a"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"></TextView>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:text="Language"
+                android:paddingLeft="35dp"
+                android:paddingRight="15dp"
+                android:textDirection="ltr"
+                android:textSize="19.3dp"
+                android:textStyle="normal"
+                android:textColor="#35af6a"
+
+                ></TextView>
+
+
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_shape_953"
+                android:tint="#35af6a"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="45dp"
+                android:layout_gravity="right|center_vertical"
+                android:visibility="visible"></ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@drawable/ic_rounded_rectangle_333"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"></ImageView>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"></LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:text="Notification tone"
+                android:paddingLeft="35dp"
+                android:paddingRight="15dp"
+                android:textDirection="ltr"
+                android:textSize="19.3dp"
+                android:textStyle="normal"
+                android:textColor="#35af6a"
+
+                ></TextView>
+
+
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_shape_953"
+                android:tint="#35af6a"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="45dp"
+                android:layout_gravity="right|center_vertical"
+                android:visibility="visible"></ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@drawable/ic_rounded_rectangle_333"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"></ImageView>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"></LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:text="Rate App"
+                android:paddingLeft="35dp"
+                android:paddingRight="15dp"
+                android:textDirection="ltr"
+                android:textSize="19.3dp"
+                android:textStyle="normal"
+                android:textColor="#35af6a"
+
+                ></TextView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@drawable/ic_rounded_rectangle_333"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"></ImageView>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"></LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+
+            >
+
+            <TextView
+                android:id="@+id/signout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:text="Logout"
+                android:paddingLeft="35dp"
+                android:paddingRight="15dp"
+                android:textDirection="ltr"
+                android:textSize="19.3dp"
+                android:textStyle="normal"
+                android:textColor="#35af6a"
+
+                ></TextView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@drawable/ic_rounded_rectangle_333"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"></ImageView>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"></LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+
+            android:src="@drawable/ic_logo_final3"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"></LinearLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:text="Version 1.00"
+            android:paddingLeft="35dp"
+            android:paddingRight="15dp"
+            android:textDirection="ltr"
+            android:textSize="11.5dp"
+            android:textStyle="normal"
+            android:textColor="#808080"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver Application"
+            android:textColor="#35af6a"
+            android:textStyle="bold"
+            android:textSize="19.3sp"
+            android:gravity="center"
+
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"></LinearLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:text="Copyright (C) 2019 - Aenee"
+            android:paddingLeft="35dp"
+            android:paddingRight="15dp"
+            android:textDirection="ltr"
+            android:textSize="11.5dp"
+            android:textStyle="normal"
+            android:textColor="#3a3a39"
+
+            ></TextView>
+
+
+    </LinearLayout>
+</layout>

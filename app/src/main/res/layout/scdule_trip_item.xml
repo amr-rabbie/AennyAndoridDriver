@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="35dp"
+    app:cardUseCompatPadding="true"
+    android:elevation="1dp"
+    app:cardElevation="1dp"
+    android:layout_margin="2dp"
+    app:cardBackgroundColor="#d1f1df"
+    android:background="#d1f1df"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+
+        android:id="@+id/cview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#d1f1df"
+    android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        android:layout_gravity="center"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="7.5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:weightSum="7">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_margin="3dp"
+                >
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="10:00 AM"
+                    android:textColor="#3a3a39"
+                    android:textSize="15.4sp"
+                    android:paddingRight="7dp"
+                    android:paddingLeft="7dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="7dp"
+                    android:paddingLeft="7dp"
+                    android:text="Saturday, 30 Novembe"
+                    android:textColor="#3a3a39"
+                    android:textSize="11.4sp"
+                    android:textStyle="normal"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_margin="3dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_disabled"></ImageView>
+
+
+                    <TextView
+                        android:id="@+id/handcup"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+
+                        android:text="1 Rider"
+                        android:textColor="#3a3a39"
+                        android:textSize="11.5sp"
+                        android:textStyle="bold"></TextView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_person"></ImageView>
+
+
+                    <TextView
+                        android:id="@+id/healthy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+
+                        android:text="2 Escorts"
+                        android:textColor="#3a3a39"
+                        android:textSize="11.5sp"
+                        android:textStyle="bold"></TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_margin="3dp"
+                >
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="$$ SAR"
+                    android:textColor="#3a3a39"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/pricetype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Fare Est."
+                    android:textColor="#3a3a39"
+                    android:textSize="11.4sp"
+                    android:textStyle="normal"></TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_green_line"
+            android:tint="#35af6a"
+            ></ImageView>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_margin="3dp"
+                >
+
+                <!--<TextView
+                    android:id="@+id/number"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+
+                    android:text="2 Times"
+                    android:textColor="#3a3a39"
+                    android:textSize="15.4sp"
+                    android:paddingRight="7dp"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"></TextView>-->
+
+                <!--<ImageView
+                    android:id="@+id/expimg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_arr"></ImageView>-->
+
+
+            </LinearLayout>
+
+
+
+            <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_green_line"
+                android:tint="#35af6a"
+                ></ImageView>-->
+
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8"
+
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+               android:layout_margin="10dp"
+                android:src="@drawable/ic_location"></ImageView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+
+                    android:text="Pickup"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:textColor="#3a3a39"
+                    android:textSize="9.6sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/pickupcity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+
+                    android:text="Riyadh"
+                    android:textColor="#35af6a"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/pickup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:text="Lorem Epsom dolor sit amet, consectetur"
+                    android:textColor="#3a3a39"
+                    android:textSize="11.5sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_black_line"
+
+                    ></ImageView>-->
+
+                <!--<TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+
+                    android:text="Drop-off"
+                    android:textColor="#3a3a39"
+                    android:textSize="9.6sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/dropoffcity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+
+                    android:text="Jeddah"
+                    android:textColor="#35af6a"
+                    android:textSize="15.4sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/dropoff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+
+                    android:text="Lorem Epsom dolor sit amet, consectetur"
+                    android:textColor="#3a3a39"
+                    android:textSize="11.5sp"
+                    android:textStyle="bold"></TextView>-->
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:visibility="gone"
+
+            >
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:textColor="#353939"
+                android:textSize="15.5sp"
+                android:textStyle="normal"
+                android:gravity="center"
+
+                android:visibility="gone"
+                android:background="#0c66f0"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:textColor="#353939"
+                android:textSize="15.5sp"
+                android:textStyle="normal"
+                android:gravity="center"
+
+android:visibility="gone"
+                android:background="#ea0000"
+
+                ></TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+            <com.applandeo.materialcalendarview.CalendarView
+                android:visibility="gone"
+                android:id="@+id/dateee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:type="many_days_picker"
+                app:headerColor="#35af6a"
+                app:selectionColor="#35af6a"
+                app:disabledDaysLabelsColor="#92a69a"
+                app:pagesColor="#d1f1df"
+                app:headerLabelColor="#d1f1df"
+
+
+                 />
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
